@@ -1,6 +1,6 @@
-# User Service
+# Messenger User Service
 
-The User Service section of Messenger is a crucial component responsible for managing user-related functionalities and interactions within the messaging platform. This service leverages master-slave replication and gRPC to ensure reliable and efficient performance.
+The User Service section of Messenger is a significant component responsible for managing user-related functionalities and interactions within the messaging platform. This service leverages replication and gRPC to ensure reliable and efficient performance.
 
 ## Features
 
@@ -18,11 +18,11 @@ The User Service section provides the following key features:
 
 ## Architecture
 
-The User Service employs a robust architecture consisting of master-slave replication and gRPC communication protocol.
+The User Service employs a capable architecture consisting of replication and gRPC communication protocol.
 
-### Master-Slave Replication
+### Replication
 
-The master-slave replication mechanism ensures high availability and fault tolerance for the User Service. It involves maintaining multiple instances of the service where one acts as the master while others serve as slaves. The master instance handles all write operations and synchronizes the data with slave instances in near real-time. In the event of a failure, one of the slave instances can be promoted to a master, ensuring uninterrupted service.
+The replication mechanism ensures high availability and fault tolerance for the User Service.
 
 ### gRPC Communication
 
@@ -40,7 +40,7 @@ To deploy the User Service section of Messenger, follow the instructions below:
 
 4. Set up the necessary gRPC dependencies and ensure they are properly configured.
 
-5. Start the master and slave instances of the User Service using the provided scripts or commands.
+5. Observe replication instances of the User Service.
 
 6. Monitor the service logs and ensure successful connectivity with other components of the Messenger platform.
 
